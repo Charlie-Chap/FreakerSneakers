@@ -3,26 +3,26 @@ body{
     color: black
     ;margin: 0%
 }
+a{
+    color: white;
+    text-decoration: none;
 
+}
     
-    
-.logo-header{
-    position:fixed ;
-    top:0px;
-    left:0px;
+.logo{
+    display: flex;
+    justify-content: flex-start;
+   
 }
 div{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color:rgb(73, 70, 70);
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 
 }
 
-
-
-
-nav{
+.navigation{
     text-decoration: none;
     font-weight: 400 ;
     text-align: center;
@@ -32,9 +32,20 @@ nav{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-
-    
+    display: flex;
+    justify-content: space-around;  
 }
+#top{
+    text-decoration: none;
+    font-weight: 400 ;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    ;
+}
+
 .lien{
     color: white;
     text-decoration: none;
@@ -52,25 +63,26 @@ nav{
 a:visited{
     color:white
 }
-.nom-header{
+.titreprincipal{
+
+   display: flex;
+   align-items: center;
+   align-self: center;
+
+}
+.connec{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    background-color:black;
-    font-size: larger;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 2px solid rgb(241, 68, 244);
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-right: 250px;
-    align-self: center;
-
-
+    justify-content:space-around;
 }
 
 .bouton{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     color: 31E97B;
-    align-self: flex-end;
+    align-self: flex-start;
     background-color: 31E97B;
 }
 input{
@@ -91,14 +103,15 @@ input{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-self: flex-start;
+    align-self: flex-end;
     text-align: center;
     cursor: pointer;
     margin: 1px;
 }
 
-.btn{
-    
+.form-popup{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
 }
 
 
