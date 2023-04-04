@@ -3,6 +3,11 @@ body{
     color: black
     ;margin: 0%
 }
+a{
+    color: white;
+    text-decoration: none;
+
+}
     
 .logo{
     display: flex;
@@ -37,6 +42,9 @@ div{
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
     background-color: black;
+    position: sticky;
+    top: 0;
+    ;
 }
 
 .lien{
@@ -57,11 +65,18 @@ a:visited{
     color:white
 }
 .titreprincipal{
-    
+
    display: flex;
    align-items: center;
    align-self: center;
 
+}
+.connec{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    justify-content:space-around;
 }
 
 .bouton{
