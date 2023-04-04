@@ -12,28 +12,44 @@
 <body>
     <header>
         <div>
-            <section class="logo"><a href="./index.html" target="_self">
-                <img src="./image/LOGOSF.png" alt="LOGOBOGOSS" height="300px">
+            <section class="logo-header">
+                <a href="./index.html" target="_self">
+                <img src="./image/LOGOSF.png" alt="LOGOBOGOSS" height="150px"></a>
             </section>
             <section class="nom-header"><a href="./index.html" target="_self">
                 <p class="header">SNEAKER FREAKER</p></a>
             </section>
             
-            <section class="bouton"><input type="button" value="RECHERCHER">
-                <input type="text">
+            <section class="bouton"><input type="button" value="RECHERCHER" >
+                <input type="text" placeholder="Rechercher">
             </section>
-            <section>
-            <!--section pour la connexion/inscriptione et Cie a toi de jouer Charly Brown !!-->
+
+            <section class="form-popup" id="popup-form">
+                <form action="/action_page.php" class="form-container">
+                    <p>Veuillez vous connecter</p>
+                    <label for="email">
+                      <strong>E-mail</strong>
+                    </label>
+                    <input type="text" placeholder="Votre Email" name="email" required />
+                    <label for="psw">
+                      <strong>Mot de passe</strong>
+                    </label>
+                    <input type="password" placeholder="Votre mot de passe" name="psw" required />
+                    <button type="submit" class="btn">Se connecter</button>
+                    <button type="submit" class="btn cancel" onclick="closeForm()">Annuler</button>
+                  </form>
             </section>
 
             
         </div>
-        <nav>
-            <a class="lien" href="./commu.html" target="_self">COMMU</a>
-            <a  class="lien" href="./custom.html" target="_self">CUSTOM</a>
-            <a class="lien" href="./shop.html" target="_self">SHOP</a>
-        </nav>
     </header>
+    <nav>
+        <a class="lien" href="./commu.html" target="_self">COMMU</a>
+        <a  class="lien" href="./custom.html" target="_self">CUSTOM</a>
+        <a class="lien" href="./shop.html" target="_self">SHOP</a>
+    </nav>
+
+
     <main>
         <section id="nouveautés">
             <header class="titre">
