@@ -20,6 +20,9 @@ nav{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: black;
     padding: 20px;
+    position: -webkit-sticky;
+    position: sticky;    
+    top: 0;
 }
 .lien{
     text-decoration: none;
