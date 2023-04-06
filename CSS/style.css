@@ -8,6 +8,19 @@ a{
     text-decoration: none;
 
 }
+.row {
+    background-color:#ff43b4;
+    display:flex;
+    justify-self: space-around;
+    text-decoration: none;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-around;
+}
+.dropdown-item{
+    color: black;
+}
     
 .logo{
     display: flex;
@@ -20,6 +33,9 @@ div{
     display: flex;
     justify-content: space-between;
 
+}
+h2{
+    background-color: ;
 }
 
 .navigation{
@@ -55,7 +71,7 @@ div{
 }
 .lien:hover{
     background-color: 31E97B;
-    color: rgb(241, 68, 244);
+    color: #ff43b4);
     border-radius: 10px;
     padding: 5px;
     transition: 0.3s;
@@ -112,6 +128,9 @@ input{
 
 .btn{
     
+}
+h2{
+    color: white;
 }
 
 
