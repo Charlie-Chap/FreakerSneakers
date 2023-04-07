@@ -27,10 +27,6 @@ header div{
     justify-content: space-between;
 
 }
-h2{
-    background-color: ;
-}
-
 .navigation{
     text-decoration: none;
     font-weight: 400 ;
@@ -43,7 +39,6 @@ h2{
     top: 0;
     display: flex;
     justify-content: space-around; 
-    
 }
 #top{
     text-decoration: none;
@@ -65,7 +60,7 @@ h2{
 }
 .lien:hover{
     background-color: 31E97B;
-    color: #ff43b4);
+    color: #ff43b4;
     border-radius: 10px;
     padding: 5px;
     transition: 0.3s;
@@ -118,10 +113,6 @@ input{
     text-align: center;
     cursor: pointer;
     margin: 1px;
-}
-
-.btn{
-    
 }
 h2{
     color: white;
