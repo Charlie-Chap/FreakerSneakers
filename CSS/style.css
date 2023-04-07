@@ -4,7 +4,6 @@ a{
 
 }
 .row {
-    background-color:#ff43b4;
     display:flex;
     justify-self: space-around;
     text-decoration: none;
@@ -26,6 +25,9 @@ header div{
     display: flex;
     justify-content: space-between;
 
+}
+.footer{
+    background-color:rgb(73, 70, 70) ;
 }
 .navigation{
     text-decoration: none;
@@ -49,6 +51,26 @@ header div{
     position: sticky;
     top: 0;
     z-index: 99;
+}
+a:hover {
+    color: #ff43b4;
+
+}
+.dropdown-menu{
+    background-color: black;
+    color: black;
+
+}
+@font-face {
+    font-family: 'New-glitch';
+    src: url('../image/Font/new_glitch/NewGlitchDemoRegular.ttf')format('truetype');
+}
+.titreShop{
+    font-family: 'New-glitch' ;
+    font-size:1cm;
+    color: black;
+    background-color: #f997ea;
+     ;
 }
 
 .lien{
