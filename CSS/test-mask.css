@@ -1,0 +1,71 @@
+.fondbandeau{
+    background-color: #ffffff;
+}
+.banniere-acceuil-nouveaute {
+        -webkit-mask-image: url(../image/charte/mask-nouveaute.png);
+    mask-image: url(../image/charte/mask-nouveaute.png);
+    mask-mode: luminance;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-position: 50% 50%;
+    mask-position: 50% 50%;
+    position: absolute;
+    z-index: 20;
+}
+.fond-de-banniere-acceuil-nouveaute{
+    z-index: 10;
+    filter: opacity(0.25);
+}
+.banniere-acceuil-top-ventes {
+        -webkit-mask-image: url(../image/charte/mask-top-ventes.png);
+    mask-image: url(../image/charte/mask-top-ventes.png);
+    mask-mode: luminance;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-position: 50% 50%;
+    mask-position: 50% 50%;
+    position: absolute;
+    z-index: 20;
+}
+.fond-de-banniere-acceuil-top-ventes {
+    z-index: 10;
+    filter: opacity(0.25);
+}
+.banniere-acceuil-custo {
+    -webkit-mask-image: url(../image/charte/maskcusto.png);
+mask-image: url(../image/charte/maskcusto.png);
+mask-mode: luminance;
+-webkit-mask-repeat: no-repeat;
+mask-repeat: no-repeat;
+-webkit-mask-size: 100%;
+mask-size: 100%;
+-webkit-mask-position: 50% 50%;
+mask-position: 50% 50%;
+position: absolute;
+z-index: 20;
+}
+.fond-de-banniere-acceuil-custo {
+z-index: 10;
+filter: opacity(0.25);
+}
+.banniere-acceuil-commu {
+    -webkit-mask-image: url(../image/charte/maskcommu.png);
+mask-image: url(../image/charte/maskcommu.png);
+mask-mode: luminance;
+-webkit-mask-repeat: no-repeat;
+mask-repeat: no-repeat;
+-webkit-mask-size: 100%;
+mask-size: 100%;
+-webkit-mask-position: 50% 50%;
+mask-position: 50% 50%;
+position: absolute;
+z-index: 20;
+}
+.fond-de-banniere-acceuil-commu {
+z-index: 10;
+filter: opacity(0.25);
+}
