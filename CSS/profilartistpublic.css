@@ -1,0 +1,51 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    max-width: 800px;
+    margin: 100px;
+    padding: 300px;
+    background-color: #FF85FB;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.name {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.details div {
+    flex-basis: calc(50% - 10px);
+}
+
+.details span {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.details p {
+    font-size: 18px;
+    margin: 0;
+}
