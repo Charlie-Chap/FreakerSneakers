@@ -129,7 +129,7 @@ a:hover{
     color: white;
     text-decoration: none;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    margin: 70px;
+    margin: 7px;
 }
 .lien:hover{
     background-color: 31E97B;
@@ -195,6 +195,12 @@ h1, h2, h3, h4, h5, h6{
 .btn:hover{
     background-color: chartreuse;
     box-shadow:#ff43b4;
+}
+ 
+.icon{
+    color:white;
+    height: 50px;
+    justify-content: end;
 }
 
 /* POP-UP CONNEXION */
