@@ -121,7 +121,6 @@ a:hover{
     src: url('../image/Font/new_glitch/NewGlitchDemoRegular.ttf')format('truetype');
 }
 .titreShop{
-    font-family: 'New-glitch' ;
     font-size:1cm;
     color: black;
     background-color: #f997ea;
@@ -179,9 +178,18 @@ input{
     cursor: pointer;
     margin: 1px;
 }
+@font-face {
+    font-family: 'Distortion Dos Analogue';
+    src: url(../image/Font/distortion_dos_analogue/Distortion\ Dos\ Analogue.otf);
+}
 h1, h2, h3, h4, h5, h6{
     color: white;
     font-family: 'Distortion Dos Analogue';
     src: url('../image/Font/distortion_dos_analogue/Distortion\ Dos\ Analogue.otf') format('opentype');
 }
 
+.btn{
+    font-family:'New Glitch' ;
+    color: black;
+    background-color: #ff43b4;
+}
