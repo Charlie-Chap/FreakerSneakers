@@ -179,7 +179,10 @@ input{
     cursor: pointer;
     margin: 1px;
 }
-h2{
+h1, h2, h3, h4, h5, h6{
     color: white;
+    font-family: 'Distortion Dos Analogue';
+    src: url('../image/Font/distortion_dos_analogue/Distortion\ Dos\ Analogue.otf') format('opentype');
+
 }
 
