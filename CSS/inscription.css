@@ -1,4 +1,3 @@
-<style>
 html, body {
 min-height: 100%;
 }
@@ -122,4 +121,3 @@ select, .children, .gender, .bdate-block {
 width: calc(60% + 16px);
 }
 }
-</style>
