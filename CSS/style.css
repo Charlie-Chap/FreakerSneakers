@@ -117,8 +117,8 @@ a:hover{
     color: black;
 }
 @font-face {
-    font-family: 'New-glitch';
-    src: url('../image/Font/new_glitch/NewGlitchDemoRegular.ttf')format('truetype');
+    font-family: 'Gobelin';
+    src: url('../image/Font/glitch_goblin/GlitchGoblin.ttf')format('truetype');
 }
 .titreShop{
     font-size:1cm;
@@ -138,9 +138,7 @@ a:hover{
     padding: 5px;
     transition: 0.3s;
 }
-a:visited{
-    color:white
-}
+
 .titreprincipal{
    display: flex;
    align-items: center;
@@ -189,7 +187,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .btn{
-    font-family:'New Glitch' ;
+    font-family:'Gobelin' ;
     color: black;
     background-color: #ff43b4;
 }
@@ -245,3 +243,7 @@ h1, h2, h3, h4, h5, h6{
     background-color: #388E3C;
   }
   /* FIN POP-UP CONNEXION */
+.btn:hover{
+    background-color: chartreuse;
+    box-shadow:#ff43b4;
+}
