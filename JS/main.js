@@ -25,4 +25,10 @@ myDiv2.style.backgroundImage = "url('"+bgImage[Math.floor(Math.random() * bgImag
 myDiv3.style.backgroundImage = "url('"+bgImage[Math.floor(Math.random() * bgImage.length)]+"')";    
 
 }
-bgrandom()
+bgrandom();
+
+localStorage.setItem("P",0)
+function count(n){
+    return n+1;
+}
+

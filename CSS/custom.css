@@ -23,3 +23,9 @@ h1{
     text-align: center;
     color: rgb(255, 254, 254);
    }
+.bibtn{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 20px;
+}
