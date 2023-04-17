@@ -5,23 +5,35 @@ body {
     padding: 0;
 }
 
-.container {
+.containerprofil {
     margin: 100px;
     padding: 300px;
     padding-right: 200px; 
-    margin-right: 10px;
+    margin-right: 100px;
     max-width: 1200px;
     width: 90%;
-    background-color: #FF85FB;
+    background-color: #c571c4;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    opacity: 0.9;
 }
 
 
 .name {
-    font-size: 28px;
+    font-size: 70px;
     font-weight: bold;
-    text-align: center;
     margin-bottom: 10px;
+    margin-top: -250px;
+    margin-left: -700px;
+   
+    
+}
+
+.profilepic img {
+    width: 300px;
+    margin: -20%;
+    margin-left: -120%;
+
+    
 }
 
 .description {

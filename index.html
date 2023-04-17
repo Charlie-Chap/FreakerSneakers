@@ -24,12 +24,26 @@
                     <input type="button" value="RECHERCHER" >
                     <input type="text" placeholder="Rechercher">
                 </section>          
-                <section class="form-popup" id="popup-form">
-                        <a href="connexion">Veuillez vous connecter</a>
-                </section>
+<!-- POP-UP CONNEXION -->
+                <nav>
+                    <a href="#" id="lien-connexion"><img src="./image/buttonConnexion.png" alt="Connexion"></a>
+                </nav>
+<!-- FIN POP-UP CONNEXION -->
             </div>
         </div>
     </header>
+<!-- POP-UP CONNEXION -->
+    <div id="popup">
+        <form>
+            <label for="email">Adresse e-mail:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="password">Mot de passe:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <button type="submit"><b>Connexion</b></button>
+            <a href="./inscription.html">Créer un compte</a>
+        </form>
+    </div>
+<!-- FIN POP-UP CONNEXION -->
     <nav id="top">
         <a class="lien" href="./commu.html" target="_self">COMMU</a>
         <a  class="lien" href="./custom.html" target="_self">CUSTOM</a>
