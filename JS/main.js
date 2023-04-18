@@ -28,7 +28,21 @@ myDiv3.style.backgroundImage = "url('"+bgImage[Math.floor(Math.random() * bgImag
 bgrandom();
 
 localStorage.setItem("P",0)
-function count(n){
-    return n+1;
+function count(){
+    P=P+1;    
 }
 
+bgrandom()
+
+//Pop-up connexion
+/* Afficher le pop-up */
+document.getElementById("lien-connexion").addEventListener("click", function() {
+    document.getElementById("popup").style.display = "block";
+  });
+  /* Cacher le pop-up quand on clique en dehors */
+  window.addEventListener("click", function(event) {
+      if (event.target == document.getElementById("popup")) {
+          document.getElementById("popup").style.display = "none";
+        }
+    });
+// Fin pop-up connexion
