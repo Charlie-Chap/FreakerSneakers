@@ -254,3 +254,8 @@ h1, h2, h3, h4, h5, h6{
     background-color: #388E3C;
   }
   /* FIN POP-UP CONNEXION */
+
+.produit-panier{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
