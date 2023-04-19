@@ -23,3 +23,15 @@ h1{
     text-align: center;
     color: rgb(255, 254, 254);
    }
+
+
+.artistbutton{
+    font-family:'Gobelin' ;
+    color: black;
+    background-color: #ff43b4;
+}
+
+.artistbutton:hover{
+    background-color: chartreuse;
+    box-shadow:#ff43b4;
+}
