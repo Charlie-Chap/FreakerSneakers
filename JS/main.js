@@ -51,3 +51,11 @@ function openPopup() {
     popup.style.display = "none";
   }
   //Fin pop up de contact
+
+
+//   const carousel = document.querySelector(".carouseljazonator");
+//   const dragging = e => {
+//     carousel.scrollLeft = e.pageX;
+//   }
+
+//   carousel.addEventListener("mousemove", dragging);
