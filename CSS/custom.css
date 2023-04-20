@@ -33,3 +33,15 @@ h1{
     
 
    }
+
+
+.artistbutton{
+    font-family:'Gobelin' ;
+    color: black;
+    background-color: #ff43b4;
+}
+
+.artistbutton:hover{
+    background-color: chartreuse;
+    box-shadow:#ff43b4;
+}
