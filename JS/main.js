@@ -39,3 +39,23 @@ document.getElementById("lien-connexion").addEventListener("click", function() {
         }
     });
 // Fin pop-up connexion
+
+//Pop up de contact page artiste
+function openPopup() {
+    var popup = document.getElementById("contact-popup");
+    popup.style.display = "block";
+  }
+  
+  function closePopup() {
+    var popup = document.getElementById("contact-popup");
+    popup.style.display = "none";
+  }
+  //Fin pop up de contact
+
+
+//   const carousel = document.querySelector(".carouseljazonator");
+//   const dragging = e => {
+//     carousel.scrollLeft = e.pageX;
+//   }
+
+//   carousel.addEventListener("mousemove", dragging);
