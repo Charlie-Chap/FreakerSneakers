@@ -25,7 +25,10 @@ myDiv2.style.backgroundImage = "url('"+bgImage[Math.floor(Math.random() * bgImag
 myDiv3.style.backgroundImage = "url('"+bgImage[Math.floor(Math.random() * bgImage.length)]+"')";    
 
 }
-bgrandom()
+bgrandom();
+bgrandom();
+
+
 
 //Pop-up connexion
 /* Afficher le pop-up */
@@ -39,6 +42,8 @@ document.getElementById("lien-connexion").addEventListener("click", function() {
         }
     });
 // Fin pop-up connexion
+<<<<<<< HEAD
+=======
 
 //Pop up de contact page artiste
 function openPopup() {
@@ -59,3 +64,4 @@ function openPopup() {
 //   }
 
 //   carousel.addEventListener("mousemove", dragging);
+>>>>>>> e44fd955a39af004d4060627507b8a6a834b3466
