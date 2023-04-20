@@ -22,6 +22,16 @@ h1{
     text-align: justify;
     text-align: center;
     color: rgb(255, 254, 254);
+    font-weight: bolder;
+    border: 10px;
+    border-color: black;
+    border-radius: 10px;
+    background-color: black;
+    margin: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+
    }
 
 

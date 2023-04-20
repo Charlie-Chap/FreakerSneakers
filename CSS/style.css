@@ -138,6 +138,18 @@ a:hover{
     padding: 5px;
     transition: 0.3s;
 }
+.lien2{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 7px;
+}
+.lien2:hover{
+    background-color: 31E97B;
+    color: #ff43b4;
+    margin: 7px;
+    transition: 0.3s;
+}
 
 .titreprincipal{
    display: flex;
@@ -167,7 +179,7 @@ input{
 }
 .form-popup form{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -259,3 +271,15 @@ h1, h2, h3, h4, h5, h6{
     margin-left: 40px;
     margin-bottom: 10px;
 }
+
+.txt{
+    text-align: end;
+    font-weight:bold ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.txt-panier{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
