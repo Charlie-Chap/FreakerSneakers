@@ -7,8 +7,30 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="CSS/profilartistpublic.css">
 </head>
 <body>
+    <header>        
+        <div class="row m-0 w-100">
+            <section class="logo col-3 d-flex justify-content-center align-items-center">
+                <a href="./index.html" target="_self">
+                <img src="./image/charte/LOGOSF.png" alt="LOGOBOGOSS" height="170px"></a>
+            </section>
+            <section class="titreprincipal col-6 d-flex justify-content-center">
+                <a href="./index.html" target="_self">
+                <img src="./image/charte/sneakerfreaker.png" alt="titre" height="190px"></a>
+            </section>
+            <div class="connec col-3">
+                <section class="bouton">
+                    <input type="button" value="RECHERCHER" >
+                    <input type="text" placeholder="Rechercher">
+                </section>          
+                <section class="form-popup" id="popup-form">
+                        <a href="connexion">Veuillez vous connecter</a>
+                </section>
+            </div>
+        </div>
+    </header>
     <nav class="d-flex justify-content-around" id="top">
         <a class="lien" href="./commu.html" target="_self">COMMU</a>
         <a  class="lien" href="./custom.html" target="_self">CUSTOM</a>
@@ -26,40 +48,69 @@
       </svg>
         </a>
     </nav>
+
     <main>
         <style>
             .fondsite01 {
-              min-height: 550px;
-              background-attachment: fixed;
-              background-position: center;
-              background-repeat: no-repeat;
-              background-size: cover;
+
+            /* Set a specific height */
+            min-height: 550px;
+            
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             }
             .fondsite01 {
+                /* The image used */
                 background-image: url("./image/charte/fondsite01.png");
+            
             }
         </style>
-        <div id="toto" class="fondsite01 row d-flex justify-content-center align-items-center text-start m-0 w-100">
-            <!-- <div class="row"><br></div> -->
-            <h1 class="text-center">contactez nous</h1>
-            <div class="col-4"></div>
-            <div class="col-4">
-                <div>
-                    <input type="email" class="rounded form-control" placeholder="Votre courriel">
-                </div>
-                <div class="row"><br></div>
-                <div>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="votre message" class="rounded form-control text-center"></textarea>
-                </div>
-                <!-- <div class="mb-3">
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-                <div class="mb-3">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="votre message"></textarea>
-                </div> -->
-            </div>
-            <div class="col-4"></div>
-        </div>   
+
+        <div id="toto" class="fondsite01 d-flex flex-column justify-content-center align-items-center text-center m-0 w-100">
+            
+            <div class="containerprofil myBorder"> <!--début du conteneur photo+bio> -->
+                <div class="profilepic myBorder">
+                    <h1 class = "name">Jazonator</h1> 
+                    <img src="image/artistes/Jazonator2 (2).png" alt="Jazonator"></div>
+                
+                <div class="description myBorder"> <!--début div description-->
+                    <h3>bio</h3>
+                    <p>Jeune créateur de 23 ans passionné de skateboard et de yaourts à boire. Je suis connu pour ma créativité débordante, reflet de mon lifestyle bordélique de grand ado attardé. Originaire d'une petite ville que personne ne connaît, j'ai commencé à saloper des sneakers dès mon plus jeune âge, inspiré par la texture grasse des crayolas. N'hésite pas à me contacter, je serais dégoûté de réaliser ton projet !</p>
+                        <div class="d-grid gap-2 m-3"></div>
+                        <button class="contact" type="button" onclick="openPopup()">Me contacter! </button>
+                        <div id="contact-popup">
+                            <form>
+                              <label for="prenom">Prénom :</label>
+                              <input type="text" id="prenom" name="prenom" required>
+                              <br>
+                              <label for="message">Message :</label>
+                              <textarea id="message" name="message" required></textarea>
+                              <br>
+                              <button type="submit">Valider</button>
+                            </form>
+                            <button class="close-btn" onclick="closePopup()">X</button>
+                          </div>
+                  </div> <!--Fin div description-->
+                    
+             </div><!--FIN du conteneur photo+bio> -->
+
+                                   
+                    
+
+                    <div class="wrapper">
+                    <h3>Mes Oeuvres</h3>
+                        <div class = "carousel">
+                            <img src="image/artistes/jazonatorshoe1.png" alt="img">
+                            <img src="image/artistes/jazonatorshoe2.png" alt="img">
+                            <img src="image/artistes/jazonatorshoe3.png" alt="img">
+                            <img src="image/artistes/jazonatorshoe4.png" alt="img">
+                        </div>            
+
+        </div>
+
     </main>
     <footer class="footer">
         <div class="navigation row m-0 w-100">
@@ -112,6 +163,6 @@
             </section>
         </div>
     </footer>
-    <script src="./JS/main.js"></script>    
+    <script src="./JS/main.js"></script>
 </body>
 </html>
