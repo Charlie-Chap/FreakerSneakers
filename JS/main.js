@@ -26,13 +26,9 @@ myDiv3.style.backgroundImage = "url('"+bgImage[Math.floor(Math.random() * bgImag
 
 }
 bgrandom();
+bgrandom();
 
-localStorage.setItem("P",0)
-function count(){
-    P=P+1;    
-}
 
-bgrandom()
 
 //Pop-up connexion
 /* Afficher le pop-up */
