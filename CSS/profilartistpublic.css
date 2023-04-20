@@ -115,22 +115,24 @@ body {
     cursor: pointer;
   }
 
-  .wrapperjazonator {
+  .wrapper {
     max-width: 1200px;
     display: block;
     align-items: center;
     min-height: 100vh;
   }
 
-  .wrapperjazonator .carouseljazonator{
+  .wrapper .carousel{
     white-space : nowrap;
     cursor: pointer;
     overflow: hidden;
 
   }
 
-  .carouseljazonator img{
+  .carousel img {
     height: 300px;
     object-fit: cover;
     width: 300px;
   }
+
+  
