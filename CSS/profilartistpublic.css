@@ -69,13 +69,14 @@ body {
     background-color: #000000;
     border: 1px solid #ccc;
     padding: 10px;
-    z-index: 99999;
+    z-index: 10;
   }
   
   #contact-popup form {
     display: block;
     margin: 0 auto;
     text-align: center;
+    z-index: 10;
    
   }
 
@@ -126,13 +127,16 @@ body {
     max-width: 1200px;
     display: block;
     align-items: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    z-index: 30;
+    position: relative;
   }
 
   .wrapper .carousel{
     white-space : nowrap;
     cursor: pointer;
     overflow: hidden;
+    z-index: 30;
 
   }
 
@@ -140,6 +144,7 @@ body {
     height: 300px;
     object-fit: cover;
     width: 300px;
+    z-index: 30;
   }
 
   .containerartists {
