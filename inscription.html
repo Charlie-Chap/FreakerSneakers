@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SNKR-FRKR</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="./CSS/inscription.css">
+    <title>Account registration form</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/style.css">
-</head>
+    <link rel="stylesheet" href="./CSS/inscription.css">
+  </head>
 <body>
   <header>        
     <div class="row m-0 w-100">
@@ -20,7 +23,8 @@
             <a href="./index.html" target="_self">
             <img src="./image/charte/sneakerfreaker.png" alt="titre" height="250px"></a>
         </section>
-        <div class="connec col-3">
+   
+      <div class="connec col-3">
             <section class="bouton">
                 <input type="button" value="RECHERCHER" >
                 <input type="text" placeholder="Rechercher">
@@ -67,55 +71,51 @@
 
 
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Account registration form</title>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-  </head>
-  <body>
+
+
+
     <div class="main-block">
     <form action="/">
-      <h1>Create a free account</h1>
+      <br>
+      <h2 style="text-align: center;">On va te créer un compte !</h2>
+      <br>
       <fieldset>
         <legend>
-          <h3>Account Details</h3>
+          <br>
+          <h3>Les informations du compte :</h3>
         </legend>
         <div  class="account-details">
           <div><label>Adresse e-mail*</label><input type="text" name="name" required></div>
           <div><label>Mot de passe*</label><input type="password" name="name" required></div>
-          <div><label>Un autre truc*</label><input type="text" name="name" required></div>
+          <div><label>Un pseudo (facultatif)</label><input type="text" name="name"></div>
           <div><label>Confirmez le mot de passe*</label><input type="password" name="name" required></div>
         </div>
       </fieldset>
       <fieldset>
         <legend>
+          <br>
           <h3>Informations personnelles</h3>
         </legend>
         <div  class="personal-details">
           <div>
             <div><label>Nom*</label><input type="text" name="name" required></div>
             <div><label>Prénom*</label><input type="text" name="name" required></div>
-            <div><label>Numéro de téléphone*</label><input type="text" name="name" required></div>
-            <div>Renseignez votre adresse. Elle nous servira à vous livrer vos plus belles paires !</div>
-            <div><label>Rue et numéro</label><input type="text" name="name"></div>
-            <div><label>Ville*</label><input type="text" name="name" required></div>
-            <div>
-              <label>Pays*</label>  
-              <select>
-                <option value=""></option>
-                <option value="Armenia">France</option>
-                <option value="Russia">Belgique</option>
-                <option value="Germany">Suisse</option>
-                <option value="France">Luxembourg</option>
-                <option value="USA">Allemagne</option>
-                <option value="UK">Autre | Attention nous ne livrons pas dans d'autres pays que ceux proposés dans cette liste !</option>
-              </select>
-            </div>
+            <div><label>Numéro de téléphone</label><input type="text" name="name"></div>
+            <br>
           </div>
-          <div>
-            <div class="birthdate">
+          <div class="date">
+            <label for="birthdate">Date de naissance :</label>
+<input type="date" id="birthdate" name="birthdate">
+
+            <!-- <label for="start">Date de naissance :</label>
+          <input type="date" id="start" 
+          date-date=""
+          date-date-format="DD MM YYYY"
+          name="trip-start"
+          value="21-04-2023"
+          min="01-01-1900" max="21-04-2023"> -->
+
+          <!-- <div class="birthdate d-flex justify-content-center align-items-center">
               <label>Date de naissance*</label>
               <div class="bdate-block">
                 <select class="day" required>
@@ -154,28 +154,45 @@
                 </select>
                 <select class="mounth" required>
                   <option value=""></option>
-                  <option value="January">January</option>
-                  <option value="February">February</option>
-                  <option value="March">March</option>
-                  <option value="April">April</option>
-                  <option value="May">May</option>
-                  <option value="June">June</option>
-                  <option value="July">July</option>
-                  <option value="August">August</option>
-                  <option value="September">September</option>
-                  <option value="October">October</option>
-                  <option value="November">November</option>
-                  <option value="December">December</option>
+                  <option value="January">Janvier</option>
+                  <option value="February">Février</option>
+                  <option value="March">Mars</option>
+                  <option value="April">Avril</option>
+                  <option value="May">Mai</option>
+                  <option value="June">Juin</option>
+                  <option value="July">Juillet</option>
+                  <option value="August">Août</option>
+                  <option value="September">Septembre</option>
+                  <option value="October">Octobre</option>
+                  <option value="November">Novembre</option>
+                  <option value="December">Décembre</option>
                 </select>
-                <input type="text" name="name" required>
+                <input type="year" name="year" required>
               </div>
-            </div>
+            </div> -->
           </div>
-        </div>
+          </div>
       </fieldset>
       <fieldset>
+        <h3>Renseignez votre adresse. Elle nous servira à vous livrer vos plus belles paires !</h3>
+        <div><label>Rue et numéro*</label><input type="text" name="name"></div>
+        <div><label>Ville*</label><input type="text" name="name" required></div>
+        <div>
+          <label>Pays*</label>  
+          <select>
+            <option value="France">France</option>
+            <option value="Belgique">Belgique</option>
+            <option value="Suisse">Suisse</option>
+            <option value="Luxembourg">Luxembourg</option>
+            <option value="Allemagne">Allemagne</option>
+            <option value="Other">Autre | Attention nous ne livrons pas dans d'autres pays que ceux proposés dans cette liste !</option>
+          </select>
+        </div>
+      </fieldset>
+    </div>
+      <fieldset>
         <legend>
-          <h3>Conditions d'utilisation</h3>
+          <h3>&nbsp;&nbsp;&nbsp;Conditions d'utilisation</h3>
         </legend>
         <div  class="terms-mailing">
           <div class="checkbox">
@@ -184,19 +201,62 @@
           <div class="checkbox">
             <input type="checkbox" name="checkbox"><span>Je souhaite recevoir des informations et news de la part de Freaker Sneakers.</span>
           </div>
+        </div>
+        <button type="submit" href="/">M'inscrire</button>
       </fieldset>
-      <button type="submit" href="/">M'inscrire</button>
-    </form>
+      </form>
     </div> 
-  </body>
-</html>
-
-
-
-
-
-
-</footer>
-<script src="./JS/main.js"></script>
+    <footer class="footer">
+      <div class="navigation row m-0 w-100">
+          <section id="reseau" class="col-4 d-flex justify-content-evenly align-items-center">
+              <a href="" id="Insta" target="_blank">
+                  <img src="./image/charte/instagram.png" alt="Logoinsta" width="50" height="50">
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=100091769444534" id="Facebook" target="_blank">
+                  <img src="./image/charte/facebook.png" alt="LogoFB" width="50" height="50">
+              </a>
+              <a href="https://www.tiktok.com/@d4rk.snkr.frkr?is_from_webapp=1&sender_device=pc" id="Tiktok" target="_blank">
+                  <img src="./image/charte/TikTok.png" alt="Logotoctoc" width="50" height="50">
+              </a>
+          </section>
+          <section id="conditions" class="col-4">
+              <a href="./conditionvente.html" target="_self">
+                  <h3>CGV</h3>
+              </a>
+              <a href="./cookie.html" target="_self">
+                  <h3>Gestion cookies</h3>
+              </a>
+              <a href="./legal.html" target="_self">
+                  <h3>Mentions legales</h3>
+              </a>
+          </section>
+          <section id="apropos" class="col-4">
+              <a href="./contact.html" target="_self">
+                  <h3>Contact</h3>
+              </a>
+              <a href="./apropos.html" target="_self">
+                  <h3>A propos</h3>
+              </a>
+              <a href="./plansite.html" target="_self">
+                  <h3>Plan du site</h3>
+              </a>
+          </section>
+      </div>
+      <div class="row m-0 w-100">
+          <section class="logo col-3">
+              <a href="./index.html" target="_self">
+                  <img src="./image/charte/LOGOSF.png" alt="LOGOBOGOSS" height="150px">
+              </a>
+          </section>
+          <section class="titreprincipal col-6 justify-content-center">
+              <a href="./index.html" target="_self" class="titre"> 
+                  <img src="./image/charte/sneakerfreaker.png" alt="titre" height="100px">
+              </a>
+          </section>
+          <section class="col-3">
+          </section>
+      </div>
+  </footer>
+<!-- <script src="./JS/main.js"></script> -->
 </body>
 </html>

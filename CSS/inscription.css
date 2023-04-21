@@ -7,21 +7,27 @@ margin: 0;
 outline: none;
 font-family: Roboto, Arial, sans-serif;
 font-size: 14px;
+font-style: oblique;
+font-weight: bold;
 color: #666;
 }
-h1 {
+h2 {
+color: black;
 margin: 0;
 font-weight: 400;
+font-family:Georgia, 'Times New Roman', Times, serif;
+text-align:justify;
 }
 h3 {
 margin: 12px 0;
-color: #8ebf42;
+color: #000000;
+font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .main-block {
 display: flex;
 justify-content: center;
 align-items: center;
-background: #fff;
+background: #f9f9f9;
 }
 form {
 width: 100%;
@@ -29,7 +35,7 @@ padding: 20px;
 }
 fieldset {
 border: none;
-border-top: 1px solid #8ebf42;
+border-top: 1px solid #31E97B;
 }
 .account-details, .personal-details {
 display: flex;
@@ -61,7 +67,7 @@ width: calc(100% + 26px);
 padding: 5px 0;
 }
 select {
-background: transparent;
+background: #ffffff;
 }
 .gender input {
 width: auto;
@@ -74,13 +80,13 @@ display: flex;
 justify-content: space-between;
 }
 .birthdate select.day {
-width: 35px;
+width: 55px;
 }
 .birthdate select.mounth {
-width: calc(100% - 94px);
+width: calc(50% - 50px);
 }
 .birthdate input {
-width: 38px;
+width: 55px;
 vertical-align: unset;
 }
 .checkbox input, .children input {
@@ -88,7 +94,7 @@ width: auto;
 margin: -2px 10px 0 0;
 }
 .checkbox a {
-color: #8ebf42;
+color: #ff43b4;
 }
 .checkbox a:hover {
 color: #82b534;
@@ -115,9 +121,9 @@ label {
 width: 40%;
 }
 input {
-width: 60%;
+width: 40%;
 }
 select, .children, .gender, .bdate-block {
-width: calc(60% + 16px);
+width: calc(30% + 16px);
 }
 }
