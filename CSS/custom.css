@@ -33,14 +33,6 @@ h1{
     
 
    }
-<<<<<<< HEAD
-.bibtn{
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    margin-bottom: 20px;
-}
-=======
 
 
 .artistbutton{
@@ -53,4 +45,3 @@ h1{
     background-color: chartreuse;
     box-shadow:#ff43b4;
 }
->>>>>>> e44fd955a39af004d4060627507b8a6a834b3466
