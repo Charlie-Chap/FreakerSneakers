@@ -284,3 +284,19 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
 }
 
+.filda{
+    display:flex;
+    justify-content: flex-start;
+    color: #ff43b4 ;
+    text-decoration: underline;
+}
+.homefil{
+    position:absolute;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+}
+.shopi{
+    color:black;
+}
