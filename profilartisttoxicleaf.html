@@ -25,12 +25,24 @@
                     <input type="button" value="RECHERCHER" >
                     <input type="text" placeholder="Rechercher">
                 </section>          
-                <section class="form-popup" id="popup-form">
-                        <a href="connexion">Veuillez vous connecter</a>
-                </section>
+<!-- POP-UP CONNEXION -->
+<a href="#" id="lien-connexion"><img src="./image/buttonConnexion.png" alt="Connexion"></a>
+<!-- FIN POP-UP CONNEXION -->
             </div>
         </div>
     </header>
+<!-- POP-UP CONNEXION -->
+<div id="popup">
+<form>
+<label for="email">Adresse e-mail:</label>
+<input type="email" id="email" name="email"><br><br>
+<label for="password">Mot de passe:</label>
+<input type="password" id="password" name="password"><br><br>
+<button type="submit"><b>Connexion</b></button>
+<a  class="lien2" href="./inscription.html">Créer un compte</a>
+</form>
+</div>
+<!-- FIN POP-UP CONNEXION -->
     <nav class="d-flex justify-content-around" id="top">
         <a class="lien" href="./commu.html" target="_self">COMMU</a>
         <a  class="lien" href="./custom.html" target="_self">CUSTOM</a>
@@ -78,7 +90,7 @@
                 
                 <div class="description myBorder"> <!--début div description-->
                     <h3>bio</h3>
-                    <p>J'ai le pouvoir de la nature entre mes mains.</p>
+                    <p class="p1">Comme ce n'est pas le pouvoir des plantes et le militantisme vegan qui vont remplir mon frigo et boucler mes fins de mois, je customise des sneakers que je vends une fortune.</p>
                         <div class="d-grid gap-2 m-3"></div>
                         <button class="contact" type="button" onclick="openPopup()">Me contacter! </button>
                         <div id="contact-popup">
@@ -115,7 +127,7 @@
     <footer class="footer">
         <div class="navigation row m-0 w-100">
             <section id="reseau" class="col-4 d-flex justify-content-evenly align-items-center">
-                <a href="" id="Insta" target="_blank">
+                <a href="https://www.instagram.com/d4rk.snkr.frkr.d4rk/" id="Insta" target="_blank">
                     <img src="./image/charte/instagram.png" alt="Logoinsta" width="50" height="50">
                 </a>
                 <a href="https://www.facebook.com/profile.php?id=100091769444534" id="Facebook" target="_blank">

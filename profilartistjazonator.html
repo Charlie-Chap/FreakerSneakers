@@ -25,12 +25,24 @@
                     <input type="button" value="RECHERCHER" >
                     <input type="text" placeholder="Rechercher">
                 </section>          
-                <section class="form-popup" id="popup-form">
-                        <a href="connexion">Veuillez vous connecter</a>
-                </section>
+<!-- POP-UP CONNEXION -->
+<a href="#" id="lien-connexion"><img src="./image/buttonConnexion.png" alt="Connexion"></a>
+<!-- FIN POP-UP CONNEXION -->
             </div>
         </div>
     </header>
+<!-- POP-UP CONNEXION -->
+<div id="popup">
+<form>
+    <label for="email">Adresse e-mail:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="password">Mot de passe:</label>
+    <input type="password" id="password" name="password"><br><br>
+    <button type="submit"><b>Connexion</b></button>
+    <a  class="lien2" href="./inscription.html">Créer un compte</a>
+</form>
+</div>
+<!-- FIN POP-UP CONNEXION -->
     <nav class="d-flex justify-content-around" id="top">
         <a class="lien" href="./commu.html" target="_self">COMMU</a>
         <a  class="lien" href="./custom.html" target="_self">CUSTOM</a>
@@ -78,7 +90,7 @@
                 
                 <div class="description myBorder"> <!--début div description-->
                     <h3>bio</h3>
-                    <p>Jeune créateur de 23 ans passionné de skateboard et de yaourts à boire. Je suis connu pour ma créativité débordante, reflet de mon lifestyle bordélique de grand ado attardé. Originaire d'une petite ville que personne ne connaît, j'ai commencé à saloper des sneakers dès mon plus jeune âge, inspiré par la texture grasse des crayolas. N'hésite pas à me contacter, je serais dégoûté de réaliser ton projet !</p>
+                    <p class="p1">Jeune créateur de 23 ans passionné de skateboard et de yaourts à boire. Je suis connu pour ma créativité débordante, reflet de mon lifestyle bordélique de grand ado attardé. Originaire d'une petite ville que personne ne connaît, j'ai commencé à saloper des sneakers dès mon plus jeune âge, inspiré par la texture grasse des crayolas. N'hésite pas à me contacter, je serais dégoûté de réaliser ton projet !</p>
                         <div class="d-grid gap-2 m-3"></div>
                         <button class="contact" type="button" onclick="openPopup()">Me contacter! </button>
                         <div id="contact-popup">
