@@ -8,11 +8,18 @@ body {
 .containerprofil {
     display: flex;
     width: 90%;
-    background-color: #e43bd3;
+    background-color: #3e393e;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     opacity: 0.9;
     
 }
+
+.p1{
+  color: rgb(255, 194, 249);
+  font-size: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .containerprofil > div{
     width: 50%;
 }
@@ -36,9 +43,9 @@ body {
       
 }
 
-.myBorder{
+/* .myBorder{
     border:1px solid rgb(0, 0, 0);
-}
+} */
 
 .contact{
     font-family:'Gobelin' ;
@@ -135,4 +142,25 @@ body {
     width: 300px;
   }
 
+  .containerartists {
+   
+    width: 90%;
+    background-color: #3e393e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    opacity: 0.9;
+    
+}
+
+#toto{
+  padding-top: 80px;
+  padding-bottom: 200px;
+}
   
+.card{
+  background-color: #000000;
+  opacity: 0.9;
+}
+
+.card-title{
+  color: white;
+}

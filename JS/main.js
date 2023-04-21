@@ -25,7 +25,10 @@ myDiv2.style.backgroundImage = "url('"+bgImage[Math.floor(Math.random() * bgImag
 myDiv3.style.backgroundImage = "url('"+bgImage[Math.floor(Math.random() * bgImage.length)]+"')";    
 
 }
-bgrandom()
+bgrandom();
+bgrandom();
+
+
 
 //Pop-up connexion
 /* Afficher le pop-up */
@@ -52,10 +55,3 @@ function openPopup() {
   }
   //Fin pop up de contact
 
-
-//   const carousel = document.querySelector(".carouseljazonator");
-//   const dragging = e => {
-//     carousel.scrollLeft = e.pageX;
-//   }
-
-//   carousel.addEventListener("mousemove", dragging);
